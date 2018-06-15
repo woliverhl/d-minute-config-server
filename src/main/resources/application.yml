@@ -10,7 +10,7 @@ logging:
         
 spring:
   application:
-    name: config-server  # Service registers under this name
+    name: d-minute-config-server  # Service registers under this name
   cloud:
     config:
       server:
