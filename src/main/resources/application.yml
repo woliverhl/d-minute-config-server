@@ -1,0 +1,18 @@
+server:
+  port: ${PORT:8888}
+  
+logging:
+  file: logs/${spring.application.name}.log
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'DEBUG'
+    com.atsistemas: 'DEBUG'
+        
+spring:
+  application:
+    name: config-server  # Service registers under this name
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/woliverhl/config-server-dminute.git
