@@ -74,6 +74,9 @@
 			<plugin>
 				<groupId>com.google.cloud.tools</groupId>
 				<artifactId>appengine-maven-plugin</artifactId>
+				<configuration>
+					<project>[PROJECT_ID]</project>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
