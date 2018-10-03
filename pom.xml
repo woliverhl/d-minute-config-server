@@ -76,6 +76,7 @@
 				<artifactId>appengine-maven-plugin</artifactId>
 				<configuration>
 					<project>d-minute-config-server</project>
+					<skipTests>true</skipTests>
 				</configuration>
 			</plugin>
 		</plugins>
