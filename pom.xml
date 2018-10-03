@@ -75,7 +75,7 @@
 				<groupId>com.google.cloud.tools</groupId>
 				<artifactId>appengine-maven-plugin</artifactId>
 				<configuration>
-					<project>[PROJECT_ID]</project>
+					<project>d-minute-config-server</project>
 				</configuration>
 			</plugin>
 		</plugins>
