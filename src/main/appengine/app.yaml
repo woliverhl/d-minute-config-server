@@ -1,4 +1,4 @@
-service: d-minute-config-server
+service: d-minute-config-server-service
 runtime: java
 env: flex
 runtime_config:  # Optional
