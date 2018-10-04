@@ -1,3 +1,4 @@
+service: dmcs-serv
 runtime: java
 env: flex
 runtime_config:  # Optional
