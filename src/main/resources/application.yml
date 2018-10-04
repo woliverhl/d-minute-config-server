@@ -16,3 +16,8 @@ spring:
       server:
         git:
           uri: https://github.com/woliverhl/config-server-dminute.git
+          
+management: 
+  context-path: /_ah 
+  security:
+    enabled: false
